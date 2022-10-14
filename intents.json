@@ -1,0 +1,33 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey"],
+    "responses": ["hello"]},
+
+    {"tag": "greetings",
+    "patterns": ["hello", "hey"],
+    "responses": ["hello"]},
+
+    {"tag": "greetings",
+    "patterns": ["hello", "hey"],
+    "responses": ["hello"]},
+
+    {"tag": "greetings",
+    "patterns": ["hello", "hey"],
+    "responses": ["hello"]},
+
+    {"tag": "greetings",
+    "patterns": ["hello", "hey"],
+    "responses": ["hello"]},
+
+    {"tag": "greetings",
+    "patterns": ["hello", "hey"],
+    "responses": ["hello"]},
+
+    {"tag": "greetings",
+    "patterns": ["hello", "hey"],
+    "responses": ["hello"]},
+
+    {"tag": "greetings",
+    "patterns": ["hello", "hey"],
+    "responses": ["hello"]}
+]}
