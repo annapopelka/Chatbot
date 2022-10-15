@@ -1,23 +1,24 @@
 {"intents": [
-    {"tag": "greetings",
-    "patterns": ["hello", "hey"],
+    {"tag": "employee",
+    "patterns": ["kdo u vás pracuje", "kdo u vás pracuje", "zaměstnanci", "zamestnanci", "personál", "personal", "logoped", "logopedka"],
+    "responses": ["Pracují u nás Mgr. Pavla Dibelková, Mgr. Adéla Pudilová a PaeDr. Zdenka Valešová"]},
+
+    {"tag": "hours",
+    "patterns": ["otevírací doba", "oteviraci doba", "kdy máte otevřeno", "kdy mate otevreno"],
+    "responses": ["Naše otevírací doba je v Pondělí 07:30 - 16:00, Úterý 07:30 - 18:00, Středa 07:30 - 16:00, Čtvrtek 07:30 - 16:00  Pátek 07:30 - 12:00. Nezapomeňte si schůzku domluvit telefonicky. Zastihnete nás na tel. čísle +420 469 620 413. V případě, že právě  ordinujeme a nemůžeme zvednout telefon, zanechte zprávu na záznamníku."]},
+
+    {"tag": "contact",
+    "patterns": ["telefonní číslo", "telefonni cislo", "telefon", "číslo", "kontakt", "email", "e-mail", "mailova adresa", "e-mailova adresa", "emailova", "mailova","emailová", "mailová"],
     "responses": ["hello"]},
 
     {"tag": "greetings",
-    "patterns": ["hello", "hey"],
-    "responses": ["hello"]},
+    "patterns": ["ahoj", "cau", "čau", "čus", "nazdar","jak se máš", "dobrý den", "dobré ráno", "dobré dopoledne", "dobré poledne", "dobré odpoledne",
+    "dobrý večer"],
+    "responses": ["Dobrý den, co pro Vás mohu udělat?", "Dobrý den, jak Vám mohu pomoci?"]},
 
-    {"tag": "greetings",
-    "patterns": ["hello", "hey"],
-    "responses": ["hello"]},
-
-    {"tag": "greetings",
-    "patterns": ["hello", "hey"],
-    "responses": ["hello"]},
-
-    {"tag": "greetings",
-    "patterns": ["hello", "hey"],
-    "responses": ["hello"]},
+    {"tag": "goodbye",
+    "patterns": ["ahoj", "cau", "čau", "čus", "nazdar", "měj se", "mej se", "nashledanou", "nashle", "naschledanou", "naschle"],
+    "responses": ["Přeji pěkný zbytek dne!"]},
 
     {"tag": "greetings",
     "patterns": ["hello", "hey"],
